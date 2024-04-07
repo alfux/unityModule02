@@ -30,6 +30,5 @@ public class EnnemyController : MonoBehaviour
 	public void TakeDamage(float val)
 	{
 		this.healthPoints -= val;
-		Debug.Log(this.gameObject.name + " has " + this.healthPoints + " remaining");
 	}
 }
